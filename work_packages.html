@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Dario Di Nucci">
+
+  <title>INTiMALS - Intelligent Modernisation Assistance for Legacy Software</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img id="logo-navigation" alt="intimals-logo" src="imgs/intimals.png"/>INTiMALS</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="work_packages.html">Work Packages<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="members.html">Members</a>
+          </li>
+          <!-- <li class="nav-item">
+              <a class="nav-link" href="publications.html">Publications</a>
+            </li> -->
+          <!-- <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <h1 class="text-center mt-5">Work Packages</h1>
+
+    <div class="text-center">
+      <img class="w-75 mt-5" alt="work-packages-structure"  src="imgs/wp_structure.png" />
+    </div>
+
+    <div id="accordion" class="my-4">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Work Package 1
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body text-justify">
+            The goal of the first work package is to design and implement a shared representation for the various types of information about the software under modernisation that both the pattern mining (WP2) and pattern matching (WP3) algorithms of our assistant
+            take as input.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Work Package 2
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body text-justify">
+            The goal of this second work package is to explore pattern mining algorithms capable of working on the syntactic, semantic and change data stored in the shared meta-model of WP1. More specifically, we will design and implement a graph mining tool that
+            can operate on that information to discover, respectively, coding idioms, common usage patterns and edit patterns.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Work Package 3
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body text-justify">
+            <p>
+              The goal of the third work package is to realize the actual assistance that our prototype will offer to modernisation engineers in program comprehension, anomaly detection, and program modernisation activities.<br/> This entails designing
+              and implementing an assistance-appropriate user interface, as well as the underlying foundation of increasingly sophisticated assistance-specific pattern matching algorithms.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingZero">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseZero" aria-expanded="false" aria-controls="collapseThree">
+              Work Package 0
+            </button>
+          </h5>
+        </div>
+        <div id="collapseZero" class="collapse" aria-labelledby="headingZero" data-parent="#accordion">
+          <div class="card-body text-justify">
+            The objective of this work package is to evaluate the support of the INTiMALS prototype within the industrial context of Raincode Labs on each of the three identified use cases for such a pro-active modernisation assistant (i.e., UC1: discovering syntactic
+            coding idioms and conventions in legacy systems, UC2: discovering usage patterns and violations of those patterns, and UC3: discovering edit patterns from past changes to legacy systems). This evaluation will proceed in lockstep with the development
+            of the scientific-technological results. In the first, second, and third year of the project, evaluation will therefore focus on INTiMALS' support for idioms & coding conventions, usage patterns, and edit patterns respectively.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-3 bg-dark">
+    <div class="container">
+      <p class="text-center text-white">
+        &copy; 2018 | INTiMALS | <a href="mailto:ddinucci@vub.ac.be" target="_blank"><i class="fas fa-envelope"></i></a> | <a href="https://twitter.com/intimals_proj" target="_blank"><i class="fab fa-twitter"></i></a> | <a href="https://gitlab.soft.vub.ac.be/intimals"
+          target="_blank"><i class="fab fa-gitlab"></i></a>
+      </p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</body>
+
+</html>
